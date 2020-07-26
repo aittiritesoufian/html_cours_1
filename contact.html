@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact</title>
+    </head>
+    <body>
+        <header>
+            <h1>Mon Site</h1>
+            <ul>
+                <li>
+                    <a href="/index.html" target="_self">Accueil</a>
+                </li>
+                <li>
+                    <a href="/contact.html" target="_self">Contact</a>
+                </li>
+                <li>
+                    <a href="/article.html" target="_self">Article</a>
+                </li>
+            </ul>
+        </header>
+        <main>
+            <h2>Contact</h2>
+            <section>
+                <form method="POST" action="/action.php">
+                    <label for="nom">Nom : </label>
+                    <input type="text" name="belhassssssss" id="nom" required placeholder="Votre nom">
+                    <br>
+                    <label for="email">Email : </label>
+                    <input type="email" name="mon_email" id="email" required placeholder="Votre email">
+                    <br>
+                    <label for="nb_cafe">Nombre de café : </label>
+                    <input type="number" name="mon_nb_cafe" id="nb_cafe" required placeholder="Nombre de café pris aujourd'hui">
+                    <br>
+                    <label for="date">Date du jour : </label>
+                    <input type="date" name="mon_date" id="date" required placeholder="Date du jour">
+                    <br>
+                    <label for="sujet">Sujet : </label>
+                    <input type="text" name="mon_sujet" id="sujet" required placeholder="Objet de votre mail">
+                    <br>
+                    <label for="message">Message : </label>
+                    <textarea id="message" name="message" placeholder="Votre message"></textarea>
+                    <br>
+                    <input type="submit" value="Envoyer">
+                </form>
+            </section>
+            <aside>
+                <h3>Informations de contact</h3>
+                <p>
+                    6 Rue Hector Berlioz<br>
+                    92390 Villeneuve la Garenne
+                </p>
+                <hr>
+                <p>
+                    <b>Siège social</b><br>
+                    <i>208 Boulevard Gallieni</i><br>
+                    <u>92390 Villeneuve la Garenne</u>
+                </p>
+            </aside>
+        </main>
+        <footer>
+            2020 &copy; Mon Site.
+        </footer>
+    </body>
+</html>
