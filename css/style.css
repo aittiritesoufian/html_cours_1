@@ -1,0 +1,28 @@
+table, td, th {
+    border: 5px solid #69a66d;
+    border-collapse: collapse;
+    padding:5px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+
+h1 {
+    display: inline-block;
+}
+
+figure {
+    display: inline-block;
+    float: right;
+}
